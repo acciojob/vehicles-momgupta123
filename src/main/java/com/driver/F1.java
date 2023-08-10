@@ -37,7 +37,7 @@ public class F1 extends Car {
     }
 
     public void accelerate(int rate){
-        int newSpeed = getCurrentSpeed() + rate;
+        int newSpeed = super.getCurrentSpeed() + rate;
         int newGear;
 
         if(newSpeed == 0) {
@@ -61,3 +61,4 @@ public class F1 extends Car {
         changeSpeed(newSpeed, getCurrentDirection());
     }
 }
+

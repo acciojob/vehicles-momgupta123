@@ -53,4 +53,34 @@ public class Car extends Vehicle {
     public void changeSpeed(int newSpeed, int newDirection){
         super.move(newSpeed, newDirection);
     }
+
+    // Getters for properties
+    public int getWheels() {
+        return wheels;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public int getDoors() {
+        return doors;
+    }
+
+    public int getGears() {
+        return gears;
+    }
+
+    public boolean isManual() {
+        return isManual;
+    }
+
+    public int getCurrentGear() {
+        return currentGear;
+    }
+
+    public int getSeats() {
+        return seats;
+    }
 }
+
